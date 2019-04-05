@@ -1,0 +1,10 @@
+messages\TextMessage.class
+tools\MailClientSend2$1.class
+tools\MailClientRecv.class
+messages\TextMessage2.class
+messages\PictureMessage.class
+tools\MailClientSend$1.class
+tools\MailClientSend.class
+messages\HtmlMessage.class
+tools\MailClientSend2.class
+messages\AttachmentMessage.class

@@ -1,0 +1,37 @@
+1551954901178	Delete element
+1551955066968	Delete element
+1551962082183	Move 'test.java' to 'java'
+1551962086225	Delete element
+1551965058140	Delete element
+1551966485918	Delete element
+1551966813840	Rename resource 'emailServer'
+1551966979836	Rename type 'test'
+1551967184370	Rename resource 'emailserver.java'
+1552030660424	Rename resource 'readServer.java'
+1552030684597	Rename type 'readServer'
+1552031310913	Rename method 'writeList'
+1552031329210	Rename method 'readServer'
+1552033096733	Rename type 'ReadAndWriteServer'
+1552034168587	Delete element
+1552034747871	Rename resource 'bean'
+1552034801127	Move 'LoginPage.java' to 'views'
+1552034802829	Move 'MainPage.java' to 'views'
+1552034874905	Rename resource 'emailio'
+1552034933212	Move 'ReadAndWriteServer.java' to 'controllor'
+1552034976275	Move 'Gsontest.java' to 'controllor'
+1552035143857	Delete element
+1552048602882	Rename field 'contentPane'
+1552054434448	Delete element
+1552055228924	Rename resource 'login.java'
+1552056437661	Delete element
+1552099696678	Rename method 'login'
+1552100180373	Rename method 'canConnect'
+1552105150758	Rename local variable 'lblNewLabel'
+1552105176740	Rename local variable 'lblWaite'
+1552105237349	Rename local variable 'lblLoad'
+1552108715287	Rename field 'lblNewLabel'
+1552108929483	Rename field 'lblNewLabel'
+1552114428700	Rename type 'message'
+1552114697880	Rename type 'email'
+1552115671016	Delete element
+1552116334922	Delete element

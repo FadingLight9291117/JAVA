@@ -1,0 +1,16 @@
+package nio;
+
+import java.net.*;
+import java.nio.*;
+
+
+public class NioClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int port = 8001;
+		Selector selector = null;
+		
+	}
+
+}
