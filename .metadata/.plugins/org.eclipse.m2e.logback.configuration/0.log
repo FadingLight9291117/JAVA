@@ -14466,3 +14466,218 @@ org.eclipse.core.runtime.CoreException: Launch configuration test references non
 2019-04-17 12:51:39,016 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-04-17 12:51:39,018 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-17 12:51:39,018 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-18 21:22:07,604 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-18 21:22:08,274 [Worker-5: Repository registry initialization] ERROR o.e.m.c.internal.embedder.MavenImpl - Could not read settings.xml, assuming default values
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings D:\Java\apache-maven-3.6.0\conf\settings.xml: end tag name </settings> must be the same as start tag <profiles> from line 188 (position: TEXT seen ...</activeProfiles>\n  -->\n</settings>... @279:12)  @ D:\Java\apache-maven-3.6.0\conf\settings.xml, line 279, column 12
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:119) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:470) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:439) ~[na:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:223) ~[na:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) ~[org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+2019-04-18 21:22:54,452 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:22:54,453 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\main\resources
+2019-04-18 21:22:54,456 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:22:54,456 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\test\resources
+2019-04-18 21:23:30,049 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-10:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\EmailTest\pom.xml.
+2019-04-18 21:23:30,189 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-08:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\NettyServer\pom.xml.
+2019-04-18 21:23:30,257 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-08:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\Netty\pom.xml.
+2019-04-18 21:23:30,358 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FadingLight:WebSocket:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\WebSocket\pom.xml.
+2019-04-18 21:23:39,491 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:23:39,491 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\main\resources
+2019-04-18 21:23:39,494 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:23:39,495 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\test\resources
+2019-04-18 21:23:39,967 [Worker-3: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-10:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\EmailTest\pom.xml.
+2019-04-18 21:23:40,380 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:23:40,380 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\main\resources
+2019-04-18 21:23:40,382 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:23:40,383 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\test\resources
+2019-04-18 21:23:45,703 [Worker-8: Updating Maven settings] ERROR o.e.m.c.internal.embedder.MavenImpl - Could not read settings.xml, assuming default values
+org.apache.maven.settings.building.SettingsBuildingException: 2 problems were encountered while building the effective settings
+[FATAL] Non-parseable settings D:\Java\apache-maven-3.6.0\conf\settings.xml: end tag name </settings> must be the same as start tag <profiles> from line 188 (position: TEXT seen ...</activeProfiles>\n  -->\n</settings>... @279:12)  @ D:\Java\apache-maven-3.6.0\conf\settings.xml, line 279, column 12
+[FATAL] Non-parseable settings D:\Java\apache-maven-3.6.0\conf\settings.xml: end tag name </settings> must be the same as start tag <profiles> from line 188 (position: TEXT seen ...</activeProfiles>\n  -->\n</settings>... @279:12)  @ D:\Java\apache-maven-3.6.0\conf\settings.xml, line 279, column 12
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:119) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:470) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.reloadSettings(MavenImpl.java:535) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.mavenConfigurationChange(MavenImpl.java:557) ~[na:na]
+	at org.eclipse.m2e.core.internal.preferences.MavenConfigurationImpl.preferenceChange(MavenConfigurationImpl.java:187) ~[na:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:845) ~[org.eclipse.equinox.preferences_3.7.100.v20180510-1129.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) ~[org.eclipse.equinox.common_3.10.0.v20180412-1130.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:848) ~[org.eclipse.equinox.preferences_3.7.100.v20180510-1129.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:860) ~[org.eclipse.equinox.preferences_3.7.100.v20180510-1129.jar:na]
+	at org.eclipse.m2e.core.internal.preferences.MavenConfigurationImpl.setUserSettingsFile(MavenConfigurationImpl.java:136) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.preferences.MavenSettingsPreferencePage$1.run(MavenSettingsPreferencePage.java:151) ~[org.eclipse.m2e.core.ui_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) ~[org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+2019-04-18 21:23:45,736 [Worker-8: Updating Maven settings] ERROR o.e.m.c.internal.embedder.MavenImpl - Could not read settings.xml, assuming default values
+org.apache.maven.settings.building.SettingsBuildingException: 2 problems were encountered while building the effective settings
+[FATAL] Non-parseable settings D:\Java\apache-maven-3.6.0\conf\settings.xml: end tag name </settings> must be the same as start tag <profiles> from line 188 (position: TEXT seen ...</activeProfiles>\n  -->\n</settings>... @279:12)  @ D:\Java\apache-maven-3.6.0\conf\settings.xml, line 279, column 12
+[FATAL] Non-parseable settings D:\Java\apache-maven-3.6.0\conf\settings.xml: end tag name </settings> must be the same as start tag <profiles> from line 188 (position: TEXT seen ...</activeProfiles>\n  -->\n</settings>... @279:12)  @ D:\Java\apache-maven-3.6.0\conf\settings.xml, line 279, column 12
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:119) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:470) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.reloadSettings(MavenImpl.java:535) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.preferences.MavenSettingsPreferencePage$1.run(MavenSettingsPreferencePage.java:162) ~[org.eclipse.m2e.core.ui_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) ~[org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+2019-04-18 21:23:47,610 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Maven:Maven:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\MavenTest\pom.xml.
+2019-04-18 21:23:48,556 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:23:48,559 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-18 21:23:48,572 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:23:48,573 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\JSONTest\src\test\resources
+2019-04-18 21:23:48,798 [Worker-9: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC16-03:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\JSONTest\pom.xml.
+2019-04-18 21:23:49,214 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:23:49,218 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-18 21:23:49,220 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:23:49,221 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\JSONTest\src\test\resources
+2019-04-18 21:23:49,385 [Worker-9: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Maven:Maven:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\MavenTest\pom.xml.
+2019-04-18 21:23:58,021 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:23:58,021 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MavenTest\src\main\resources
+2019-04-18 21:23:58,026 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:23:58,026 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MavenTest\src\test\resources
+2019-04-18 21:23:59,884 [Worker-4: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CLZ:MyEmail:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\MyEmail\pom.xml.
+2019-04-18 21:24:02,425 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:02,426 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-18 21:24:02,442 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:02,442 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MyEmail\src\test\resources
+2019-04-18 21:24:02,874 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-08:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\Netty\pom.xml.
+2019-04-18 21:24:02,983 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:02,983 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\Netty\src\main\resources
+2019-04-18 21:24:02,985 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:02,985 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\Netty\src\test\resources
+2019-04-18 21:24:03,252 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-08:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\NettyServer\pom.xml.
+2019-04-18 21:24:03,323 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:03,323 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\NettyServer\src\main\resources
+2019-04-18 21:24:03,326 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:03,326 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\NettyServer\src\test\resources
+2019-04-18 21:24:03,608 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FadingLight:WebSocket:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\WebSocket\pom.xml.
+2019-04-18 21:24:03,664 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:03,664 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\WebSocket\src\main\resources
+2019-04-18 21:24:03,665 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:03,665 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\WebSocket\src\test\resources
+2019-04-18 21:24:05,061 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Maven:Maven:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\MavenTest\pom.xml.
+2019-04-18 21:24:05,171 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-10:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\EmailTest\pom.xml.
+2019-04-18 21:24:05,241 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC16-03:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\JSONTest\pom.xml.
+2019-04-18 21:24:05,480 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-08:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\Netty\pom.xml.
+2019-04-18 21:24:05,703 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FadingLight:WebSocket:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\WebSocket\pom.xml.
+2019-04-18 21:24:05,755 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-08:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\NettyServer\pom.xml.
+2019-04-18 21:24:05,809 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CLZ:MyEmail:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\MyEmail\pom.xml.
+2019-04-18 21:24:06,393 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,394 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\main\resources
+2019-04-18 21:24:06,396 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,396 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\test\resources
+2019-04-18 21:24:06,447 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:24:06,450 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-18 21:24:06,451 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:24:06,452 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\JSONTest\src\test\resources
+2019-04-18 21:24:06,523 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,523 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MavenTest\src\main\resources
+2019-04-18 21:24:06,525 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,525 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MavenTest\src\test\resources
+2019-04-18 21:24:06,555 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,555 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-18 21:24:06,556 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,556 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MyEmail\src\test\resources
+2019-04-18 21:24:06,579 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,579 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\Netty\src\main\resources
+2019-04-18 21:24:06,580 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,580 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\Netty\src\test\resources
+2019-04-18 21:24:06,600 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,600 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\NettyServer\src\main\resources
+2019-04-18 21:24:06,602 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,602 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\NettyServer\src\test\resources
+2019-04-18 21:24:06,621 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,622 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\WebSocket\src\main\resources
+2019-04-18 21:24:06,623 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:24:06,623 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\WebSocket\src\test\resources
+2019-04-18 21:28:13,552 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-18 21:28:21,249 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:21,250 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\main\resources
+2019-04-18 21:28:21,258 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:21,258 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\test\resources
+2019-04-18 21:28:22,350 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:28:22,359 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-18 21:28:22,372 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:28:22,374 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\JSONTest\src\test\resources
+2019-04-18 21:28:22,595 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:22,595 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MavenTest\src\main\resources
+2019-04-18 21:28:22,600 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:22,600 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MavenTest\src\test\resources
+2019-04-18 21:28:22,728 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:22,729 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-18 21:28:22,731 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:22,732 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MyEmail\src\test\resources
+2019-04-18 21:28:22,888 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:22,888 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\Netty\src\main\resources
+2019-04-18 21:28:22,890 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:22,890 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\Netty\src\test\resources
+2019-04-18 21:28:22,968 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:22,969 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\NettyServer\src\main\resources
+2019-04-18 21:28:22,971 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:22,972 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\NettyServer\src\test\resources
+2019-04-18 21:28:23,064 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:23,064 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\WebSocket\src\main\resources
+2019-04-18 21:28:23,066 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:23,066 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\WebSocket\src\test\resources
+2019-04-18 21:28:48,338 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:48,342 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-18 21:28:48,345 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:48,346 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MyEmail\src\test\resources
+2019-04-18 21:28:50,434 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:50,435 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-18 21:28:50,436 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:28:50,436 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MyEmail\src\test\resources
+2019-04-18 21:29:01,552 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-18 21:29:02,350 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-10:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\EmailTest\pom.xml.
+2019-04-18 21:29:02,425 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC16-03:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\JSONTest\pom.xml.
+2019-04-18 21:29:02,544 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Maven:Maven:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\MavenTest\pom.xml.
+2019-04-18 21:29:02,634 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CLZ:MyEmail:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\MyEmail\pom.xml.
+2019-04-18 21:29:02,678 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-08:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\Netty\pom.xml.
+2019-04-18 21:29:02,733 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test:MOOC18-08:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\NettyServer\pom.xml.
+2019-04-18 21:29:02,768 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FadingLight:WebSocket:0.0.1-SNAPSHOT @ D:\Program\Eclipse Project\eclipse-workspace\WebSocket\pom.xml.
+2019-04-18 21:29:03,533 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailTest/src/main/java
+2019-04-18 21:29:03,533 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailTest/src/test/java
+2019-04-18 21:29:03,721 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSONTest/src/main/java
+2019-04-18 21:29:03,722 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JSONTest/src/main/resources
+2019-04-18 21:29:03,722 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSONTest/src/test/java
+2019-04-18 21:29:03,847 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenTest/src/main/java
+2019-04-18 21:29:03,848 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenTest/src/test/java
+2019-04-18 21:29:03,925 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyEmail/src/main/java
+2019-04-18 21:29:03,925 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyEmail/src/main/resources
+2019-04-18 21:29:03,926 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyEmail/src/test/java
+2019-04-18 21:29:04,021 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Netty/src/main/java
+2019-04-18 21:29:04,022 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Netty/src/test/java
+2019-04-18 21:29:04,059 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /NettyServer/src/main/java because it overlaps with /NettyServer/src
+2019-04-18 21:29:04,059 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /NettyServer/src/test/java because it overlaps with /NettyServer/src
+2019-04-18 21:29:04,111 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebSocket/src/main/java
+2019-04-18 21:29:04,112 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebSocket/src/test/java
+2019-04-18 21:29:04,825 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2019-04-18 21:29:05,160 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:05,160 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\main\resources
+2019-04-18 21:29:05,162 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:05,163 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\EmailTest\src\test\resources
+2019-04-18 21:29:05,604 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:29:05,606 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-18 21:29:05,617 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-18 21:29:05,620 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\JSONTest\src\test\resources
+2019-04-18 21:29:05,763 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:05,763 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MavenTest\src\main\resources
+2019-04-18 21:29:05,765 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:05,765 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MavenTest\src\test\resources
+2019-04-18 21:29:06,216 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:06,217 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-18 21:29:06,225 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:06,225 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\MyEmail\src\test\resources
+2019-04-18 21:29:06,390 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:06,390 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\Netty\src\main\resources
+2019-04-18 21:29:06,391 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:06,392 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\Netty\src\test\resources
+2019-04-18 21:29:06,697 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:06,698 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\NettyServer\src\main\resources
+2019-04-18 21:29:06,699 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:06,699 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\NettyServer\src\test\resources
+2019-04-18 21:29:06,821 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:06,821 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\WebSocket\src\main\resources
+2019-04-18 21:29:06,823 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 21:29:06,823 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Eclipse Project\eclipse-workspace\WebSocket\src\test\resources
